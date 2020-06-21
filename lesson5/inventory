@@ -1,15 +1,11 @@
-control.example.com
-ansible1.example.com
-ansible2.example.com
+[localtest]
+localhost
+
+[rhel7]
+myvm1[41:48]
 
 [lamp]
-ansible1.example.com
+myvm1[41:43]
 
-[file]
-ansible2.example.com
-
-[nodes:children]
-lamp
-file
-
-
+[rhel8]
+myvm44

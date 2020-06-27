@@ -4,5 +4,5 @@
   tasks:
     - name: check a fact
       debug: 
-        msg: echo today is 06
-      when: '"07" in ansible_date_time.day'
+        msg: echo today is 27
+      when: '"27" in ansible_date_time.day'
